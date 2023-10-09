@@ -8,9 +8,16 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>  
 <body>
+
     <h2><a href="index.html"><img src="catsketch.png" alt="cat"></a>
         <a href="index.html"><img src="dogsketch.png" alt="dog"></a>
-        <a href="p7.html"><img src="bird.png" alt="bird" ></a>
+
+    <button id="btn" type="submit"><img src="bird.png" onclick="audio.play();"></button>
+    <script type="text/javascript">
+        const audio = new Audio();
+        audio.src = "birdaudio.wav"
+    </script>
+
         <a href="p4.html"><img src="myart2.png" alt="myart2" ></a>
         <a href="p8.html"><img src="toysketch.png" alt="toy snail"></a>
         <a href="p1.html"><img src="spidersketch.png" alt="spider"></a>

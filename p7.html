@@ -9,7 +9,12 @@
 </head>  
 <body>
     <h2>
-        <a href="p5.html"><img src="bird.png" alt="bird" ></a>
+        <button id="btn" type="submit"><img src="bird.png" onclick="audio.play();"></button>
+        <script type="text/javascript">
+            const audio = new Audio();
+            audio.src = "birdaudio.wav"
+        </script>
+       
         <a href="p8.html"><img src="controllersketch.png" alt="controller"></a>
         <a href="p6.html">customize</a>
         <a href="p3.html"><img src="mushroom.png" alt="mushroom"></a>
